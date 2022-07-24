@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'freshLychee';
+    src: url(fonts/fresh-lychee.ttf);
+}
+
+@font-face {
+    font-family: 'lemonCake'; /* Need to buy license to get rid of watermark*/
+    src: url(fonts/lemon-cake.otf);
+}
+
+@font-face {
+    font-family: 'lemonTea'; /* All caps font */
+    src: url(fonts/lemon-tea.ttf);
+}
+
+@font-face {
+    font-family: 'melonHoney';
+    src: url(fonts/melon-honey.ttf);
+}
+
+@font-face {
+    font-family: 'whimsicalFountain';
+    src: url(fonts/whimsical-fountain.ttf);
+}
+
+@font-face {
+    font-family: 'bubbleJelly';
+    src: url(fonts/bubble-jelly.ttf);
+}
+
+@font-face {
+    font-family: 'strawberryBubblegumRegular';
+    src: url(fonts/strawberry-bubblegum-regular.ttf);
+}
