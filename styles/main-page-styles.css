@@ -1,5 +1,35 @@
 @import url(fonts.css);
 
+body {
+    background-color: rgb(226, 186, 252);
+    font-family: "bubbleJelly";
+}
+
 h1 {
-    font-family: 'bubbleJelly';
+    font-family: "lemonTea";
+    font-size: 42px;
+    padding: 32px
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 300px;
+}
+
+.container {
+    background-color: rgb(216, 166, 250);
+    margin: 20px 20px 50px 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+h2 {
+    font-family: "strawberryBubblegumRegular";
+    font-size: 32px;
+}
+
+.ending-paragraph-in-div {
+    padding-bottom: 10px;
 }
