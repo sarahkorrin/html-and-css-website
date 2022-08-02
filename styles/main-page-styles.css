@@ -1,14 +1,19 @@
 @import url(fonts.css);
 
 body {
-    background-color: rgb(226, 186, 252);
+    background-color: rgb(227, 195, 248);
     font-family: "bubbleJelly";
+    color: rgb(244, 230, 247);
+    font-size: 25px;
 }
 
 h1 {
     font-family: "lemonTea";
-    font-size: 42px;
-    padding: 32px
+    font-size: 62px;
+    padding: 32px;
+    color: rgb(219, 132, 245);
+    -webkit-text-stroke: rgb(246, 232, 250);
+    -webkit-text-stroke-width: 1px;
 }
 
 header {
@@ -20,16 +25,69 @@ header img {
 }
 
 .container {
-    background-color: rgb(216, 166, 250);
-    margin: 20px 20px 50px 20px;
-    padding: 0px 20px 0px 20px;
+    background-color: rgb(223, 176, 245);
+    margin: 30px 130px 50px 130px;
+    padding: 0px 30px 0px 30px;
+    border: 3px solid rgb(245, 232, 247);
+    border-radius: 8px;
 }
 
 h2 {
-    font-family: "strawberryBubblegumRegular";
-    font-size: 32px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "littleCupcakes";
+    font-size: 50px;
+    color: rgba(190, 94, 245, 0.719);
+    /* -webkit-text-stroke: rgb(246, 232, 250);
+    -webkit-text-stroke-width: 1px; */
+
+}
+
+p {
+    padding: 10px;
+}
+
+.highlight {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin: 14px 0;
+    padding-left: 10px;
+    border-left: 5px solid transparent;
+}
+
+.important {
+    color: rgb(241, 220, 247);
+    border-color: rgb(229, 153, 248);
+}
+
+.second-to-last-par-in-div {
+    padding: 0;
+    margin-bottom: 0;
 }
 
 .ending-paragraph-in-div {
     padding-bottom: 10px;
+    margin-top: 0;
+    padding-left: 0;
+    padding-top: 3px;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(219, 132, 245);
+    background-color: rgb(244, 223, 248);
+    padding: 3px;
+    border-radius: 4px;
+}
+
+
